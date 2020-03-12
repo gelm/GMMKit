@@ -1,0 +1,6 @@
+framework module GMMKit {
+  umbrella header "GMMKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

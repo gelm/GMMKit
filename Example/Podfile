@@ -1,11 +1,6 @@
 use_frameworks!
 
 target 'GMMKit_Example' do
-  pod 'GMMKit', :path => '../'
+  pod 'GMMKit', :path => '../GMMKit.podspec'
 
-  target 'GMMKit_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
